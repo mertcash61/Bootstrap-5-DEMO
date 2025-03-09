@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f0f0; /* Arka plan rengi */
+    color: #333; /* Metin rengi */
+    font-family: Arial, sans-serif; /* Yazı tipi */
+}
+
+h1 {
+    color: #4CAF50; /* Başlık rengi */
+}
+
+p {
+    line-height: 1.6; /* Satır yüksekliği */
+}
+
+.card {
+    background-color: #ffffff; /* Kart arka plan rengi */
+    border: 1px solid #ddd; /* Kart kenar rengi */
+    border-radius: 8px; /* Kenar yuvarlama */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Buton rengi */
+    border-color: #007bff; /* Buton kenar rengi */
+    border-radius: 5px; /* Kenar yuvarlama */
+    padding: 10px 20px; /* İç boşluk */
+    font-size: 16px; /* Yazı boyutu */
+    transition: background-color 0.3s, transform 0.2s; /* Geçiş efektleri */
+    width: 100%; /* Buton genişliği */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Buton hover rengi */
+    border-color: #0056b3; /* Buton hover kenar rengi */
+    transform: scale(1.05); /* Hover sırasında butonu büyüt */
+}
+
+.table {
+    margin-top: 20px; /* Tablo üst boşluğu */
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Hücre içeriğini ortala */
+}
+
+form {
+    background-color: #ffffff; /* Form arka plan rengi */
+    padding: 20px; /* İç boşluk */
+    border-radius: 8px; /* Kenar yuvarlama */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    margin-top: 20px; /* Üst boşluk */
+}
+
+.form-label {
+    font-weight: bold; /* Etiket yazı tipi kalın */
+}
